@@ -1,0 +1,38 @@
+body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.cal{
+    width: 500px;
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.allBtn{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+#inp{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+
+}
